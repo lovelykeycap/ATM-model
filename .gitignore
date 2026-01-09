@@ -1,0 +1,47 @@
+# Build and package artifacts
+[Bb]in/
+[Oo]bj/
+artifacts/
+publish/
+packages/
+*.nupkg
+*.snupkg
+*.dll
+*.exe
+*.pdb
+*.cache
+*.binlog
+
+# IDE and user settings
+.idea/
+.vs/
+.vscode/
+*.user
+*.suo
+*.rsuser
+*.userprefs
+*.sln.docstates
+*.DotSettings.user
+_ReSharper*/
+
+# Test and coverage output
+TestResults/
+coverage/
+coverage*.json
+coverage*.xml
+coverage*.info
+*.coverage
+*.coveragexml
+
+# Local configuration and logs
+.env
+.env.*
+!.env.example
+appsettings.Local.json
+appsettings.*.Local.json
+*.log
+*.tmp
+*.swp
+*~
+.DS_Store
+Thumbs.db
